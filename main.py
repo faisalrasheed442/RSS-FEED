@@ -55,7 +55,7 @@ def send_email(subject,message,reciever):
 
 while True:
     try:
-        if int(datetime.now().strftime("%M"))==clean_time:
+        if int(datetime.now().strftime("%H"))==clean_time:
             cur.execute("DELETE FROM info")
             con.commit()
             clean_time=int(datetime.now().strftime("%H"))+12
