@@ -6,7 +6,7 @@ import sqlite3
 import time
 from datetime import datetime
 # change tthis to your email
-reciever='faisalrasheed442@gmail.com'
+reciever='write your email@gmail.com'
 # change this time to you value after how many seconeds it  will run like 60 seconed for 1 minutes 
 send_time=60
 
@@ -28,8 +28,8 @@ def send_email(subject,message,reciever):
     
 
     # Define email sender and receiver
-    email_sender = 'rssfeed@techwithflash.net'
-    email_password = 'a933JYaXgH1d'
+    email_sender = 'your smtp email '
+    email_password = 'your smtp password'
 
     
     email_receiver = reciever
