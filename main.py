@@ -62,8 +62,8 @@ while True:
         for feed_pars in url:
             # setting url and jobs name 
             subject = feed_pars['name']
-            url=feed_pars['url']
-            f=feedparser.parse(url)
+            link=feed_pars['url']
+            f=feedparser.parse(link)
 
             # getting all result in from rss feed
             for x in range(len(f)): 
